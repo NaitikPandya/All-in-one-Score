@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="440dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team A"
+        android:textSize="25dp"
+        android:id="@+id/dialog_title"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/dialog_pager_view"/>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="end"
+       android:orientation="horizontal">
+
+       <com.google.android.material.button.MaterialButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/dialog_button_done"
+           android:text="Done"
+           android:textSize="12dp"
+           android:layout_gravity="end"
+           style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+       <com.google.android.material.button.MaterialButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/dialog_button_next"
+           android:text="Select Bowler"
+           android:textSize="12dp"
+           android:layout_gravity="end"
+           style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+   </LinearLayout>
+
+</LinearLayout>

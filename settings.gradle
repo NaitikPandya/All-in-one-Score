@@ -1,0 +1,3 @@
+include ':avatargenlib'
+include ':app'
+rootProject.name = "Allinonescore"

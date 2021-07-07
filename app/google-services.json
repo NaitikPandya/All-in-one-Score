@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "620113820515",
+    "project_id": "scorers-b7b83",
+    "storage_bucket": "scorers-b7b83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620113820515:android:fc93704a038b0defa27156",
+        "android_client_info": {
+          "package_name": "com.example.allinonescore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620113820515-f4g9mtkllnmqq0ejuhisblu6vtgf2uda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPL8L-szBFVsulB8ZMGUxQ2Hv6fjnbrOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620113820515-f4g9mtkllnmqq0ejuhisblu6vtgf2uda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
